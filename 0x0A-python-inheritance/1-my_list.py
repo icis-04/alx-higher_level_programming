@@ -27,4 +27,4 @@ class MyList(list):
                 self: argument that refers to the class
                 Returns: sorted list
         """
-        return self.sort()
+        print(sorted(self))
