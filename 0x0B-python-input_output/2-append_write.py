@@ -11,4 +11,4 @@ def append_write(filename="", text=""):
         Returns: number of bytes written
     """
     with open(filename, 'a+', encoding='utf-8') as f:
-        return f.append(text)
+        return f.write(text)
