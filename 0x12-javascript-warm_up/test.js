@@ -1,4 +1,3 @@
 #!/usr/bin/node
-const preocess = require('process');
-console.log(process.argv[2]);
-
+const add = require('./13-add').add;
+console.log(add(3, 5));

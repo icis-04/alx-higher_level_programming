@@ -3,12 +3,16 @@
 const process = require('process');
 let n = parseInt(process.argv[2]);
 let m = Number.isInteger(n);
+let i = 0;
 if (m === false){
 console.log('Missing size');
 }else{
-for (let i = 0; i < n; i++){
-for (let j = 0; j < n; j++){
-console.log('X\n'); 
+while(i < n){
+j = 0
+while(j < n){
+console.log('X');
+j++;
 }
+i++;
 }
 }
