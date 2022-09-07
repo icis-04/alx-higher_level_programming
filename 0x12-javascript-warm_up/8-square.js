@@ -4,7 +4,7 @@ const process = require('process');
 const n = parseInt(process.argv[2]);
 const m = Number.isInteger(n);
 let i = 0;
-j = 'X'
+j = 'X';
 if (m === false) {
   console.log('Missing size');
 } else {
