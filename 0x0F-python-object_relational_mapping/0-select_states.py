@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""0-select_states: used to select states from a database"""
+"""
+0-select_states: used to select states from a database
+"""
 import MySQLdb
 import sys
 if __name__ = "__main__":
